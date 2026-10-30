@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""Booster K1 stereo camera browser viewer (ROS 2 -> MJPEG over SSH).
-
-Run on the robot inside a venv with --system-site-packages:
-    python k1_stereo_viewer.py --fps 15
-
-On your Mac:
-    ssh -N -L 8765:127.0.0.1:8765 booster@10.1.2.2
-    open http://localhost:8765
-
-This is a *preview* of each camera's most recent frame, not timestamp-synchronised
-stereo data for depth estimation.
-"""
-
 import argparse
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
