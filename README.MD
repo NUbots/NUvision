@@ -1,6 +1,7 @@
 # Stero vision stream
 
 This program runs both the left camera feed and right feed to a website browser.
+[![Watch the video](images.jpeg)](https://youtu.be/RjA3HQmcMOU?si=w7Ize_fToILxKD5C)
 
 ## The protocol
 
@@ -32,5 +33,4 @@ Activate the script
 
 Then open on: [http://localhost:8765](http://localhost:8765)
 
-This is a _preview_ of each camera's most recent frame, not timestamp-synchronised
-stereo data for depth estimation.
+This is a _preview_ of each camera's most recent frame, not timestamp-synchronised stereo data for depth estimation.
